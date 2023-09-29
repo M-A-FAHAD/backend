@@ -12,8 +12,8 @@ app.get('/', (req, res) => {
 app.get('/data', (req, res) => {
     res.json(data)
 })
-app.post('/post',(req,res)=>{
-    res.json({Name:FAHAD})
+app.post('/post', (req, res) => {
+    res.json({ post: 'This is my first code set in node and deploy in vercel.My name is' })
 })
 port = process.env.PORT || 3000;
 
