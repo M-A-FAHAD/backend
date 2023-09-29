@@ -6,6 +6,9 @@ const dotenv = require('dotenv');
 dotenv.config()
 const app = express();
 
+app.get('/', (req, res) => {
+    res.send('<h1>Welcome!</h1>');
+})
 app.get('/data', (req, res) => {
     res.json(data)
 })
