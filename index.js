@@ -7,7 +7,7 @@ const app = express();
 dotenv.config()
 
 app.get('/', (req, res) => {
-    res.send('<h1>Welcome!</h1>');
+    res.send('<h1>Welcome!This is my first code set in node and deploy in vercel.My name is FAHAD</h1>');
 })
 app.get('/data', (req, res) => {
     res.json(data)
