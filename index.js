@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 app.get('/data', (req, res) => {
     res.json(data)
 })
-app.post('/post',()=>{
+app.post('/post',(req,res)=>{
     res.json({Name:FAHAD})
 })
 port = process.env.PORT || 3000;
