@@ -6,7 +6,7 @@ const dotenv = require('dotenv');
 dotenv.config()
 const app = express();
 
-app.get('/', (req, res) => {
+app.get('/data', (req, res) => {
     res.json(data)
 })
 
