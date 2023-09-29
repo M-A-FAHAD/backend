@@ -3,8 +3,8 @@ const data = require('./Data/json');
 const dotenv = require('dotenv');
 
 
-dotenv.config()
 const app = express();
+dotenv.config()
 
 app.get('/', (req, res) => {
     res.send('<h1>Welcome!</h1>');
